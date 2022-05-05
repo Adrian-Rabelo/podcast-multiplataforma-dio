@@ -5,17 +5,27 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Podcast Dio'),
-      ),
-      body: const Center(
-        child: Text(
-          'Digital Innovation One',
-          style: TextStyle(
-            fontSize: 24.0,
-            color: Colors.red,
-            fontWeight: FontWeight.bold,
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.white,
+        body: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget> [
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 25,
+                  vertical: 25,
+                ),
+                child: Row(
+                  children: [
+                    Text('Live Coding Podcast')
+                  ],
+                ),
+              
+              ),
+            ],
           ),
         ),
       ),
