@@ -1,16 +1,23 @@
-# podcast_multiplataforma_dio
+# Podcast Multiplataforma com Flutter
 
-A new Flutter project.
+Live Coding da Digital Innovation One
 
-## Getting Started
+**Podcast DIO** é um projeto criado em Flutter na Live Coding da DIO, apresentado pelo **João Paulo Matias**
 
-This project is a starting point for a Flutter application.
+---
+## Clonando o projeto
 
-A few resources to get you started if this is your first Flutter project:
+Para clonar o projeto \
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**1º** ➝ Crie uma pasta e entre nela
+```
+mkdir podcast_dio
+cd podcast_dio
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**2º** ➝ Clone o projeto \
+```
+git clone git@github.com:Adrian-Rabelo/podcast-multiplataforma-dio.git
+```
+
+---
